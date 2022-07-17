@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="../assets/img/icon.png"/>
+    <link href="../assets/stylesheets/style.css" rel="stylesheet" type=text/css>
+    <link rel="stylesheet" href="../assets/stylesheets/responsive.css" />
+    <title>PUISSANCE-4-Gravity</title>
+  </head>
+
+  <body>
+      <header>
+            <h1>Puissance 4 Gravity</h1>
+      </header>
+
+            <h3>REGLE DU JEU</h3>
+                <p>
+                    Le but du jeu est d'aligner avant son adversaire 4 jetons de ça couleur horizontalement, verticalement ou en diagonale.
+                    </br>Commencez directement contre un ami(e) ou contre l'ordi en cliquant sur le bouton si dessous.
+                    <br><input class="boutonia" Type="button" value="Jouer contre l'ordi" onClick= "playCpu()">
+                </p>
+
+
+        <div id="div-fleche-select" onmouseover="survol();" onmouseout="stopsurvol();">
+        <img class="flecheselect" src="../assets/img/flecheselect.png" title="curseur" alt="curseur" class="pointeur" id="curseur" style="position:absolute; display:block; z-index:5;"/>
+        </div>
+
+        <section>
+            <aside id="score1">
+                <p class="pscore">- SCORE JOUEUR 1 -</p>
+            </aside>
+
+            <table >
+                <tr>
+                    <td scope="col" onclick="play(this)"></td>
+                    <td scope="col" onclick="play(this)"></td>
+                    <td scope="col" onclick="play(this)"></td>
+                    <td scope="col" onclick="play(this)"></td>
+                    <td scope="col" onclick="play(this)"></td>
+                    <td scope="col" onclick="play(this)"></td>
+                    <td scope="col" onclick="play(this)"></td>
+                </tr>
+                <tr>
+                    <td scope="row" onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td scope="row" onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                </tr>
+                <tr>
+                    <td scope="row" onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td scope="row" onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                </tr>
+                <tr>
+                    <td scope="row" onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td scope="row" onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                </tr>
+                <tr>
+                    <td scope="row" onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td scope="row" onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                </tr>
+                <tr>
+                    <td scope="row" onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td scope="row" onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                </tr>
+            </table>
+            <aside id="score2">
+                <p class="pscore">- SCORE JOUEUR 2 -</p>
+            </aside>
+        </section>
+                <div>
+                    <p id="gagnant">QUI SERA LE GAGNANT ???</p>
+                </div>
+
+                <form>
+                    <input Type="button" value="Nouvelle partie" onClick="newsGame()">
+                </form>
+
+        <footer>
+            <h2>© Ecole Ri7 - 2022 -</h2>
+        </footer>
+    <script src="../index.js"></script>
+  </body>
+</html>
+
+        

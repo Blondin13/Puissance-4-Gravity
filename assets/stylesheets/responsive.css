@@ -1,0 +1,279 @@
+/*---------------------------------------------------------------*/
+@media screen and (max-width: 1220px){
+
+    h1{
+        font-size: 2.3rem;
+    }
+    
+    h3{
+        font-size: 1.6rem;
+    }
+    
+    p{
+        font-size: 0.9rem; 
+    }
+    
+    .pscore {
+     
+        font-size: 0.8rem;
+    }
+    
+    #score1 img{
+        width: 8px;
+    }
+    
+    #score2 img{
+        width: 8px;  
+    }
+
+    .flecheselect{
+        display: none !important;
+    }
+
+    /*------------FORM-------------*/
+    form{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    input{
+        font-size: 20px;
+    }
+    
+    /*-----------FOOTER-----------*/
+    footer {
+        height:30px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/*---------------------------------------------------------------*/
+@media screen and (max-width: 1050px){
+
+    h1{
+        font-size: 2.5rem;
+    }
+    
+    h3{
+        font-size: 1.8rem;
+    }
+    
+    p{
+        font-size: 1rem; 
+    }
+    
+    .pscore {
+     
+        font-size: 0.8rem;
+    }
+    
+    #score1 img{
+        width: 8px;
+    }
+    
+    #score2 img{
+        width: 8px;  
+    }
+
+    .flecheselect{
+        display: none !important;
+    }
+    /*------------SECTION-----------*/
+    section{
+        margin-top: 160px;
+    }
+    
+    /*-----------TABLEAU-----------*/
+    
+    td {
+        
+        width: 50px;
+        height: 50px;
+        background-image: none;
+        
+    }
+    
+    td img{
+        width: 80%;
+    
+    }
+    
+    /*------------FORM-------------*/
+    form{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    input{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    
+    /*-----------FOOTER-----------*/
+    footer {
+        height:30px;
+        width: 100%;
+        margin-top: 295px;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/*---------------------------------------------------------------*/
+@media screen and (max-width: 790px){
+
+    h1{
+        font-size: 2.5rem;
+    }
+    
+    h3{
+        font-size: 1.8rem;
+    }
+    
+    p{
+        font-size: 1rem; 
+    }
+    
+    .pscore {
+     
+        font-size: 0.8rem;
+    }
+    
+    #score1 img{
+        width: 8px;
+    }
+    
+    #score2 img{
+        width: 8px;  
+    }
+
+    /*------------SECTION-----------*/
+    section{
+        margin-top: 150px;
+    }
+    
+    /*-----------TABLEAU-----------*/
+    
+    td {
+        
+        width: 50px;
+        height: 50px;
+        background-image: none;
+        
+    }
+    
+    td img{
+        width: 80%;
+    
+    }
+    
+    /*------------FORM-------------*/
+    form{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    input{
+        font-size: 20px;
+    }
+    
+    /*-----------FOOTER-----------*/
+    footer {
+        background-color: rgb(13,20,222);
+        text-align: center;
+        position:absolute;
+        height:30px;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/*---------------------------------------------------------------*/
+@media screen and (max-width: 440px){
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 0.8rem; 
+    }
+
+    .pscore {
+    
+        font-size: 0.7rem;
+    }
+
+    #score1 img{
+        width: 8px;
+    }
+
+    #score2 img{
+        width: 8px;  
+    }
+
+    .flecheselect{
+        display: none !important;
+    }
+
+    /*------------SECTION-----------*/
+    section{
+        margin-top: 60px;
+    }
+
+    /*-----------TABLEAU-----------*/
+
+    td {
+        width: 30px;
+        height: 30px;
+        background-image: none;
+        
+    }
+
+    td img{
+        width: 75%;
+
+    }
+
+    /*------------FORM-------------*/
+    form{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    input{
+        font-size: 13px;
+    }
+
+    /*-----------FOOTER-----------*/
+    footer{
+        width: 100%;
+        height:30px;
+        margin-top: 70px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}

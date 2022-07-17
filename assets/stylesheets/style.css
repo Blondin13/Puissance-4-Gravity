@@ -1,0 +1,181 @@
+/*--------------------------POLICE-------------------------------*/
+@font-face{
+    font-family: neon;
+    src: url(../font/neon.otf)
+}
+
+/*--------------METTRE A 0 LES MARGIN ET PADDING-----------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------ANIMATION------------------------------*/
+.anim{
+    animation: clignote 0.5s linear infinite;
+}
+
+@keyframes clignote{  
+    50%{opacity: 0;}
+}
+
+/*--------------------------BODY---------------------------------*/
+body{
+    background-color: rgb(17, 17, 20);
+}
+
+/*------------HEADER------------*/
+header{
+    background-color:rgb(13,20,222);
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+    font-family: neon;
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px white;
+}
+
+h3{
+    text-align: center;
+    font-family: neon;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-family: neon;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#div-fleche-select{
+    width: 722px;
+    height: 40px;
+    margin: auto;
+}
+
+#div-fleche-select img{
+    width: 40px;
+    margin-left: -20px !important;
+    
+}
+
+/*------------SECTION-----------*/
+section{
+    display: flex;
+    justify-content: center;
+}
+
+/*------------ASSIDE-----------*/
+aside{
+    flex: 1;
+    text-align: center;
+}
+
+
+.pscore {
+    font-family: neon;
+    font-size: 1.5rem;
+    color:white;
+    text-shadow: 1px 1px 2px rgb(37, 222, 13);
+    margin-top: 20px;
+}
+
+#score1 img{
+    margin-top: 20px;
+    width: 10px;
+    padding: 0;
+}
+
+#score2 img{
+    margin-top: 20px;
+    width: 10px;  
+}
+
+/*-----------TABLEAU-----------*/
+tr{
+    background-color:white;
+}
+
+
+td {
+    border: 3px solid rgb(13,20,222);
+    width: 95px;
+    height: 95px;
+    background-image: url(../img/fondDEcase.png);
+    background-size: cover;
+}
+
+td img{
+    margin-top: 3.5px;
+    margin-left: 3.8px;
+    width: 92%;
+}
+
+/*------------FORM-------------*/
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px rgb(201, 193, 193);
+}
+
+footer {
+    background-color: rgb(13,20,222);
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: neon;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*section {
+    background-image:url('img/Grille-Puissance-4.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+}*/
