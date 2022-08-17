@@ -1,8 +1,8 @@
 //---------------------------------------------MES VARIABLES----------------------------------------------------//
-let flecheSelect = '<img src="../assets/img/flecheselect.png>';
-let jetonJaune = '<img src="../assets/img/jetonjaune.png">';
-let jetonRouge = '<img src="../assets/img/jetonrouge.png">';
-let imgTrait   = '<img src="../assets/img/trait.png">';
+let flecheSelect = '<img src="./assets/img/flecheselect.png">';
+let jetonJaune = '<img src="./assets/img/jetonjaune.png">';
+let jetonRouge = '<img src="./assets/img/jetonrouge.png">';
+let imgTrait   = '<img src="./assets/img/trait.png">';
 let array = document.querySelectorAll("table td");
 let win = false;
 let lap = 1;
@@ -64,13 +64,13 @@ document.onmousemove = function(e){
 //-----------------------------FONCTION-SONG---------------------------------//
 const bruitJeton = () => {
     const audio = new Audio();
-    audio.src = "../assets/mp3/jeton.mp3";
+    audio.src = "./assets/mp3/jeton.mp3";
     audio.play();
 };
 
 const aplau = () => {
     const audio = new Audio();
-    audio.src = "../assets/mp3/motus.mp3";
+    audio.src = "./assets/mp3/motus.mp3";
     audio.play();
 };
 
